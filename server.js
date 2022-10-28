@@ -6,6 +6,8 @@ app.use(cors())
 app.use(express.json())
 app.use("/",                require("./routes/index"))
 app.use("/darkpool",        require("./routes/darkpool/index"))
+app.use("/news",        require("./routes/newsapi/index"))
+
 /* Listening on the port specified in the config.json file. */
 app.listen(config.hostPort,function(){
     console.log(`Now listening on ${config.hostPort}`)
