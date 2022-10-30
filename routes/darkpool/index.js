@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
+/* This is a function that is called when the user goes to the /spCompare route. It is a function that
+downloads a csv file from the internet, renames the column headers, and then sends the data back to
+the user. */
 router.get('/spCompare', function (req, res, next) {
     const csv = require('csv-parser')
     const fs = require('fs')

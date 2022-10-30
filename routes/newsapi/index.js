@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const moment = require("moment");
 
+/* This is a post request to the news api. */
 router.post('/everything', function (req, res, next) {
     const https = require("https");
     const options = {
