@@ -9,7 +9,7 @@ digits-api-tda is the service responsible for handling TDAmeritrade API data to 
 
 ## 📝 Code Properties ✨ ![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![HitCount](https://hits.dwyl.com/dylanalloy/digits-ui.svg?style=flat-square) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-##### The stack below is minimal as what we do in this API is mostly bridge external HTTP requests and preprocess.
+##### The stack below is minimal as what we do in this API is mostly bridge external HTTP requests and preprocess data.
 
 | 📁 Library | ⚙ Purpose | 📎 Version |
 | :-- | :-: | --: |
@@ -45,7 +45,7 @@ npm start
 
 ## 🏰 Service Mesh API ✨
 
-##### digits-api-main is responsible for a lot, but the API model is simple. 
+##### digits-api-altdata is responsible creative problem solving when it comes to data acquisition i.e. if something is scraped and not scheduled, it's probably here. 
 
  - 🔌 Interfacing [ http ]
      - All API routing is done through http requests. It's possible sockets play a role one day.
