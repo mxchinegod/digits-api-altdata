@@ -9,6 +9,6 @@ app.use("/darkpool",        require("./routes/darkpool/index"))
 app.use("/news",        require("./routes/newsapi/index"))
 
 /* Listening to the port that is defined in the config file. */
-app.listen(config.hostPort,function(){
-    console.log(`Now listening on ${config.hostPort}`)
+app.listen(config.servicePort,function(){
+    console.log(`Now listening on ${config.servicePort}`)
 })
