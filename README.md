@@ -66,6 +66,7 @@ npm start
 - [ ] Create mesh diagram
 - [x] Explain preprocessor philosophy
 - [ ] Add politician investing history
+- [ ] Add Twitter feeds from select followed list
 
 ##### long-term
 
