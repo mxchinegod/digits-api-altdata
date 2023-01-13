@@ -3,7 +3,7 @@
 "><img style="max-width:175px;" src="./digits2.gif">
 </a>
 <br>
-digits-api-tda is the service responsible for handling TDAmeritrade API data to the main API and the UI. Some endpoints are vanilla i.e. they route to TDA with no processing. Others are tightly coupled to a specific component-API React bridge in DigitsUI.<br>
+digits-api-altdata is the Digits service responsible for retrieving alternative data, which is sort of a catchall for "not scientifically evaluated" in the investing world.<br>
 </p>
 <hr>
 
