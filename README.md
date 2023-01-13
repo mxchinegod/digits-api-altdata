@@ -69,8 +69,8 @@ npm start
 
 ##### long-term
 
-- [ ] Docker images
-- [ ] Kubernetes deployment
+- [x] Docker images
+- [x] Kubernetes deployment
 
 <br>
 <p align="center">
