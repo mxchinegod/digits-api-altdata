@@ -14,7 +14,8 @@ router.get('/schedule', function (req, res, next) {
             data = data + chunk.toString();
         })
         response.on('end', () => {
-            res.json(JSON.parse(data))
+            // This should be res.json JSON.parse() but it says invalid JSON...
+            res.send(data)
         })
     })
     .on('error', (error) => {
