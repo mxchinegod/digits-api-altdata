@@ -8,7 +8,7 @@ router.post('/everything', function (req, res, next) {
     const options = {
         headers: {"User-Agent": "Digits3 News API"}
     }
-    https.request(`https://newsapi.org/v2/everything?q=${req.body.query}&from=${moment().format('YYYY-MM-DD')}&sortBy=publishedAt&apiKey=912f1d27a98c4a75a4d26c7cb2de2157&language=en`, options, (response) => {
+    https.request(`https://newsapi.org/v2/everything?q=${req.body.query}&sortBy=publishedAt&apiKey=912f1d27a98c4a75a4d26c7cb2de2157&language=en`, options, (response) => {
         let data = '';
         response.on('data', (chunk) => {
             data = data + chunk.toString();
