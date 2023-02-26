@@ -31,7 +31,7 @@ digits-api-altdata is the Digits service responsible for retrieving alternative 
 
 ## 📜 Provided Scripts ✨
 
-##### Digits Pro provides some useful scripts to help you quick start.
+##### Digits AI provides some useful scripts to help you quick start.
 
 ##### Scripts provided in `package.json`. It's safe to modify or add additional scripts, but here are the defaults:
 
