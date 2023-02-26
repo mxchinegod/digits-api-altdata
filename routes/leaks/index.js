@@ -9,7 +9,7 @@ router.get('/quarterly', function (req, res, next) {
     const options = {
         headers: {"User-Agent": "Digits3 News API"}
     }
-    https.request(`https://www.googleapis.com/customsearch/v1?key=${config.googleKey}&cx=${config.googleCx}&q=Market Q${moment().quarter()}%20after%3A${moment().subtract(30, 'days').format('YYYY-MM-DD')}%20filetype%3Apdf`, options, (response) => {
+    https.request(`https://www.googleapis.com/customsearch/v1?key=${config.googleKey}&cx=${config.googleCx}&q=Market Q${moment().quarter()}%20after%3A${moment().subtract(90, 'days').format('YYYY-MM-DD')}%20filetype%3Apdf`, options, (response) => {
         let data = '';
         response.on('data', (chunk) => {
             data = data + chunk.toString();
