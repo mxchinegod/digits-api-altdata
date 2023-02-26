@@ -4,7 +4,7 @@ const moment = require("moment");
 const config  = require("../../config")
 
 /* This is a post request to the news api. */
-router.post('/quarterly', function (req, res, next) {
+router.get('/quarterly', function (req, res, next) {
     const https = require("https");
     const options = {
         headers: {"User-Agent": "Digits3 News API"}
